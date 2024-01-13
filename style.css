@@ -16,6 +16,8 @@
     --medium-font:3rem;
     --text-font: 1.25rem;
     --navfont:1.5rem;
+    --navafont:1.4rem;
+
 }
 
 body{
@@ -53,7 +55,7 @@ body{
     transform: scale(1.1);
 }
 .navbar a{
-    font-size: var(--navfont);
+    font-size: var(--navafont);
     margin: 2rem;
     color: var(--text-color);
     font-weight: 500;
@@ -322,6 +324,7 @@ h2{
         --medium-font:2.5rem;
         --text-font: 1.2rem;
         --navfont:1.3rem;
+        --navafont:1.2rem;
     }
     
     .contact{
@@ -375,9 +378,11 @@ h2{
     }
     :root{
         --big-font: 3.5rem;
-        --medium-font:2rem;
+        --medium-font:2.5rem;
         --text-font: 1.15rem;
         --navfont:1.2rem;
+        --navafont:1.1rem;
+
     }
     
 }
@@ -412,7 +417,10 @@ h2{
     width: 100%;
 }
 
-
+.btn{
+    margin-top: 20px;
+    margin-right: 5px;
+}
 
 
 }
@@ -420,9 +428,11 @@ h2{
 @media(max-width:500px){
     :root{
         --big-font: 2.8rem;
-        --medium-font: 1.6rem;
+        --medium-font: 2rem;
         --text-font: 1.1rem;
         --navfont:1.15rem;
+        --navafont:1rem;
+
     }
     
     .btn{
